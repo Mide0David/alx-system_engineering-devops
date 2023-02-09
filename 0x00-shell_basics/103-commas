@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -A --format=commas -1 | tr '\n' ',' | sed 's/^\.\|\.$,//g;s/,$//'
+ls -amvp
