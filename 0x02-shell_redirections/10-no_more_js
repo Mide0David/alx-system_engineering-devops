@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lR | tr '[*.js]'
+type . -type f -name "*.js" -delete
