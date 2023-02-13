@@ -1,2 +1,2 @@
 #!/bin/bash
-type . -type f -empty -or -type d -empty
+find . -type f -empty -or -type d -empty
